@@ -1,21 +1,15 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *  
- *  Return: 0 on success always
+ * print_alphabet - prints the alphabets in lower case
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	char vin[8] = "_putchar";
-	int i;
+	char c;
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(vin[i]);
+	for (c = 'a'; c <= 'z'; c++)
+        {
+		_putchar(c);
 	}
 	_putchar('\n');
-
-	return (0);
 }
