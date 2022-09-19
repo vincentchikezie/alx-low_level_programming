@@ -1,5 +1,3 @@
-Executable File  17 lines (15 sloc)  217 Bytes
-
 #include "main.h"
 
 /**
